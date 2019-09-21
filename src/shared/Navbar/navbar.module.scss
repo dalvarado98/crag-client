@@ -1,0 +1,20 @@
+.Nav {
+    
+    .NavWhite {
+        background-color: #ffffff !important;
+        transition: background-color 0.4s ease-out;
+    }
+    
+    .NavScroll {
+        background-color: #FF6B2C !important;
+        transition: background-color 0.4s ease-out;
+        a {
+            color: #ffffff !important;
+        }
+    }
+
+    .NavBrand {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}
