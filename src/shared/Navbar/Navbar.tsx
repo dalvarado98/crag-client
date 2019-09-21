@@ -20,8 +20,9 @@ const MainNavbar = () => {
       <Navbar expand="lg" fixed="top" className={changeNavOnScroll ? style.NavWhite : style.NavScroll}>
 
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
+          <Nav.Link href="#home" className="mx-5">LUGARES</Nav.Link>
+          <Nav.Link href="#link" className="mx-5">GIMNASIOS</Nav.Link>
+          <Nav.Link href="#link" className="mx-5">MAPA</Nav.Link>
         </Nav>
         <Navbar.Brand className={style.NavBrand}>
           <img
@@ -32,8 +33,8 @@ const MainNavbar = () => {
             className="d-inline-block align-top"
           /></Navbar.Brand>
         <Nav className="ml-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
+          <Nav.Link href="#home" className="mx-5">NOSOTROS</Nav.Link>
+          <Nav.Link href="#link" className="mx-5">CONTACTO</Nav.Link>
         </Nav>
       </Navbar>
     </div>
