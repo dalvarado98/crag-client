@@ -1,0 +1,18 @@
+.ContentCard {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid #FF7D45;
+    width: 85%;
+
+    .CardLink {
+            text-decoration: none !important;
+            .CardTitle {
+                color: #B33F0D;
+            }
+
+            .CardDescription {
+                color: #000000;
+            }
+
+    }
+}

@@ -24,8 +24,8 @@ const Header = () => {
     return (
         <div className={style.App} style={{ backgroundImage: `url(${imageUrl})` }}>
             <div className={style.AppContent}>
-                <h1>Pineapples</h1>
-                <p>They are good</p>
+                <h1></h1>
+                <p></p>
             </div>
         </div>
     );

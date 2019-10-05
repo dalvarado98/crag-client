@@ -1,12 +1,14 @@
 import React from 'react';
-import Header from './Header/Header';
-import MainNavbar from '../../shared/Navbar/Navbar';
+import Header from '../../shared/Components/Header/Header';
+import Content from './Content/Content';
+import MainNavbar from '../../shared/Components/Navbar/Navbar';
 
 const Home = () => {
     return (
         <>
-            <MainNavbar />
+            <MainNavbar isDynamicColor={true}/>
             <Header />
+            <Content />
         </>
     );
 }

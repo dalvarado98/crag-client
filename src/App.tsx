@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import Home from './modules/Home/Home';
+import Routes from './Routes';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import './App.css';
 
 const App: React.FC = () => {
   return (
-    <Home />
+    <Router>
+      <Routes />
+    </Router>
   );
 }
 
